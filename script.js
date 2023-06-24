@@ -19,16 +19,6 @@ class frutas {
 }
 
 let Frutas=[]
-//ultima edición
-/*const Frutas = ["manzana", "cebolla","apio","naranja", "papaya", "sandia", "melon"];*/
-/*
-function ListaFruta () {
-    for (i = 0; i<Frutas.length; i++){
-       let n = [i,i++]
-    }
-    ListaFruta = Frutas[n]
-}*/
-
 
  Frutas.push("manzana");
  Frutas.push("cebolla");
@@ -65,50 +55,6 @@ console.log (Frutas1)
 console.log (Frutas)
 
 
- //let Frutas1 = []
-
-// const ListaFrutas = function (n, Frutas) {
-//     for (let i = 0; i < n; i++) {
-//         Frutas1.push(Frutas.pop(n))
-//     }
-//     return Frutas;
-// }
-// console.log(Frutas,4)
-
-//Primer intento
-/*let Frutas1 = []
-for (i=0;i<3;i++){
-    Frutas1.push(Frutas.pop())
-}
-
-
-console.log(Frutas)
-console.log(Frutas1)
-*/
-
-/*function ListaFrutal([Frutas], elemento) {
-    const j = Frutas.length
-    for (let i = 0; i < j; i++) {
-        if (Frutas[j]=== elemento)
-        return Frutas1
-
-       // Frutas1.push(Frutas.pop());
-    }
-}
-
-console.log((ListaFrutal,3))*/
-
-
-/*
-for(i = 0; i < 3; i++){
-
-    Frutas1.push(Frutas.pop())
-    }
-
-
-console.log(Frutas)
-console.log(Frutas1)
-*/
 
 //Escribe una funcion "reemplazar" que tenga como parámetros una pila de elementos de tipo Number, y dos valores tambien de tipo Number "nuevo" y "viejo", de forma que si el segundo valor aparece en algún lugar de la pila, sea reemplazado por el primero (solo la primera vez), y hara pop de los elementos más nuevos.
 //Entrada: reemplazar ([3,2,3,4,6,8,1,2,5,5],7,2)
